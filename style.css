@@ -1,8 +1,16 @@
 body{
-    background-color: #0fe200;
+    background-color: #212121;
+    color: white;
 }
 
 p{
-    font-size: 200px;
-    color: blueviolet;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+h1{
+    color: red;
+
+}
+h2{
+    color: yellow;
 }
