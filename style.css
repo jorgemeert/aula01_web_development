@@ -14,3 +14,11 @@ h1{
 h2{
     color: yellow;
 }
+
+img{
+    width: 200px;
+}
+
+ul li{
+    list-style-type:lower-roman;
+}
