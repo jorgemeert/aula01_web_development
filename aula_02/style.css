@@ -1,0 +1,57 @@
+/* objeto {
+    atributo: valor;
+    propriedade:valor;
+
+}
+
+tag{}   nome da tag                     ex: <p> tururu</p>
+.classe{}   nome da classe              ex: class="bemLouco"
+#id{}   nome do id                      ex: id="legal" (id é um valor único)
+
+
+                EX DE TAG
+    VAI SER APLICADOS EM TODAS AS TAGS
+p{
+    color:red;
+}
+
+                EX DE CLASSE
+    VAI SER APLICADO EM TODAS AS TAGS
+.classe{
+    color:blue;
+}
+
+                EX DE ID
+    VAI SER APLICADO APENAS NO ID CHAMADO
+#id{
+    color:green;
+}
+
+*/
+
+
+body{
+    text-align: center;
+    
+}
+
+header{
+    background-color: #333333;
+    border-radius: 10px;
+    margin:0 ;
+    border:0;
+
+}
+
+header:hover{
+    background-color: #222222;
+}
+
+
+.cardapio {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 50px 50px;
+    gap: 20px;
+
+}
