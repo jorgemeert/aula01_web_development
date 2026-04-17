@@ -30,10 +30,7 @@ p{
 */
 
 
-body{
-    text-align: center;
-    
-}
+
 
 header{
     background-color: #333333;
@@ -47,11 +44,8 @@ header:hover{
     background-color: #222222;
 }
 
+ul {
+    list-style-type: none;
 
-.cardapio {
-    display: grid;
-    justify-content: center;
-    grid-template-columns: 50px 50px;
-    gap: 20px;
 
 }
