@@ -2,15 +2,80 @@
     margin: 0px;
 }
 
-section{
+body{
+    background: #0f0303;
+    background: linear-gradient(90deg, rgba(15, 3, 3, 1) 0%, rgba(0, 0, 0, 1) 50%, rgba(46, 43, 43, 1) 100%);;
+}
+
+.calculadora{
+    border: 1px solid #777;
+    text-align: center;
+    display: grid;
+    place-self: center;
+    gap: 12px;
+    background-color: #ffffff;
+    border-radius: 4px;
+    width: 300px;
+    margin-top: 200px;
+    border-radius: 4px;
+    padding: 20px;
+    place-items: center;
+    box-shadow: 3px 3px 8px 1px rgba(255, 255, 255, 0.2);
+    color: #6E00B3;
+   
+}
+
+.calculadora label{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+.botao{
+    border-radius: 5px;
+    padding: 5px 10px;
+    box-shadow: 0;
+    border: 1px solid #777;
+   
+}
+
+.botao:hover{
+    background-color:  #6E00B3;
+    transition: 0.4s;
+}
+
+.resposta{
     border: 1px solid black;
     text-align: center;
     display: grid;
     place-self: center;
-    place-content: center;
-    gap: 20px;
-    background-color: #d3d3d3;
+    background-color: #ffffff;
     border-radius: 4px;
     width: 300px;
-    margin-top: 200px;
+    margin-top: 30px;
+    border-radius: 4px;
+    padding: 30px;
+}
+
+.obesidadeIII{
+    color: red;
+}
+
+.obesidadeII{
+    color: #ff4b33;
+}
+.obesidadeI{
+    color: #FF7518;
+}
+
+.sobrePeso{
+    color:#FFDE21;
+}
+
+.normal{
+    color:#568203 ;
+}
+
+.baixoPeso{
+    color:#4682B4;
 }

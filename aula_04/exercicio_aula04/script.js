@@ -8,20 +8,37 @@ btnEnviar.addEventListener("click", () => {
     let status = '';
     let classifica;
 
+    let elemento = document.querySelector('#resultado');
+
     if (conta > 40) {
         status = 'Obeso III';
-        classifica = '<p class="nivel3">Obeso Nivel III</p';
+        elemento.innerHTML = 'Seu peso está ' + status + ', seu IMC é ' + conta.toFixed(2);
+        elemento.style = "color: red";
+
     } else if (conta > 35) {
         status = 'Obeso II';
+        elemento.innerHTML = 'Seu peso está ' + status + ', seu IMC é ' + conta.toFixed(2);
+        elemento.style = "color: #ff4b33;";
+
     } else if (conta > 30) {
         status = 'Obeso I';
+        elemento.innerHTML = 'Seu peso está ' + status + ', seu IMC é ' + conta.toFixed(2);
+        elemento.style = " color: #FF7518;";
     } else if (conta > 25) {
-        status = 'SobrePeso'
-    } else if (conta < 18, 5) {
-        status = 'Normal'
+        status = 'sobrePeso'
+        elemento.innerHTML = 'Seu peso está ' + status + ', seu IMC é ' + conta.toFixed(2);
+        elemento.style = "color: #FFDE21;";
+    } else if (conta >= 18.6) {
+        status = 'normal';
+        elemento.innerHTML = 'Seu peso está ' + status + ', seu IMC é ' + conta.toFixed(2);
+        elemento.style = "color: #568203;";
     } else {
-        status = 'Baixo peso'
+        status = 'baixo peso';
+        elemento.style = "color: #4682B4;";
+        elemento.innerHTML = 'Seu peso está ' + status + ', seu IMC é ' + conta.toFixed(2);
+
     }
 
-    document.getElementById("resultado").innerHTML = 'Seu peso está ' + status + ', seu IMC é ' + conta.toFixed(2);
+
+
 })
