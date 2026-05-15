@@ -1,0 +1,20 @@
+.produto {
+    margin-top: 10px;
+    width: 50px;
+    height: 50px;
+    display: block;
+    float: left;
+    background: blue;
+    border-radius: 50%;
+}
+
+.dark{
+    transition: 1s;
+    background-color: black;
+    color: beige;
+}
+
+.dark button{
+    background: rgb(130, 168, 130);
+    color: aliceblue;
+}
